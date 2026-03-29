@@ -1,78 +1,154 @@
-# 🌱 MindBloom
+# MindBloom
 
-> AI-powered Mental Health & Memory Care Platform  
-> Helping users preserve memories, improve emotional well-being, and reconnect with their past.
-
----
-
-## 🚀 Live Demo
-🔗 [Click Here to View Project](https://mindbloom-frontend.onrender.com)
+AI-powered Mental Health & Memory Assistance Platform
 
 ---
 
-## 📌 Overview
+## Overview
 
-MindBloom is an AI-driven platform designed to support **mental health and memory care**, especially for individuals facing cognitive challenges.
+MindBloom is an AI-based system designed to assist users in maintaining mental well-being and preserving personal memories. The platform enables users to interact through text or voice, store meaningful experiences, and gain insights into emotional patterns.
 
-It combines **AI, voice interaction, and data visualization** to create a personalized and engaging experience for users and caregivers.
-
----
-
-## ✨ Features
-
-- 🎤 **AI Memory Interviews**
-  - Voice-based interaction to capture life memories
-- 🧠 **AI-Powered Analysis**
-  - Intelligent processing of memories using AI models
-- 🌼 **Memory Visualization**
-  - Converts memories into visual representations
-- 📊 **Caregiver Dashboard**
-  - Monitor emotional well-being and progress
-- 🗓️ **Daily Memory Journal**
-  - Track and revisit important life events
-- 💬 **AI Chat Support**
-  - Interactive chatbot for emotional assistance
-- 📈 **Analytics & Insights**
-  - Data-driven insights for better care
+The system focuses on combining **AI interaction, memory tracking, and visualization** to provide a supportive digital environment.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-### 🔹 Frontend
-- React.js
-- Tailwind CSS
-- Web Audio API
-- Chart.js
-
-### 🔹 Backend
-- FastAPI
-- MongoDB
-- Uvicorn
-- Pydantic
-
-### 🔹 AI & Integrations
-- Google Gemini AI
-- Speech Recognition
-- Unsplash API
-- Ribbon API
-
-### 🔹 DevOps
-- Docker
-- Render (Deployment)
-- Git & GitHub
+* AI-based conversational assistant for mental support
+* Memory storage and retrieval system
+* Voice and text interaction support
+* Emotion-aware responses (basic level)
+* Dashboard for insights and activity tracking
+* Visualization of stored memories
 
 ---
 
-## 🧱 System Architecture
-User (Voice/Input)
-↓
-Frontend (React)
-↓
-Backend (FastAPI)
-↓
-AI Services (Gemini + APIs)
-↓
-Database (MongoDB)
-↓
-Dashboard & Visualization
+## Tech Stack
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+
+### Backend
+
+* FastAPI
+* Python
+
+### Database
+
+* MongoDB
+
+### AI Integration
+
+* Gemini API / LLM-based responses
+
+---
+
+## Project Structure
+
+```
+MindBloom/
+│
+├── frontend/        # React application
+├── backend/         # FastAPI server
+├── models/          # AI / data models
+├── utils/           # Helper functions
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/RajanyaSaha-27/MindBloom.git
+cd MindBloom
+```
+
+---
+
+### Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+---
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the backend directory:
+
+```
+MONGO_URI=your_mongodb_uri
+GEMINI_API_KEY=your_api_key
+```
+
+---
+
+## Usage
+
+1. Start backend server
+2. Run frontend application
+3. Open browser at:
+
+```
+http://localhost:5173
+```
+
+4. Interact with the AI assistant
+5. Store and explore memories
+
+---
+
+## Use Cases
+
+* Personal mental health tracking
+* Memory journaling
+* Emotional pattern observation
+* AI-based conversational support
+
+---
+
+## Limitations
+
+* Emotion detection is not highly advanced
+* Depends on external AI API availability
+* Limited personalization in current version
+
+---
+
+## Future Improvements
+
+* Advanced emotion detection using ML
+* Personalized recommendations
+* Mobile application support
+* Multi-user / caregiver mode
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+```
+Fork → Clone → Create Branch → Commit → Push → Pull Request
+```
+
+---
